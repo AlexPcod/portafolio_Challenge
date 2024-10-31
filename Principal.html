@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Omar Espinoza</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Menú de navegación principal -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#aficiones">Aficiones</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de presentación -->
+><section id="presentacion">
+    <div class="presentacion-contenido">
+        <div class="texto-presentacion">
+            <h1>Bienvenido a Mi Portafolio</h1>
+            <p>Hola, soy Omar Espinoza, un desarrollador web en proceso de formación con experiencia en backend y soporte técnico. Me encanta crear proyectos funcionales que simplifiquen la vida de las personas.</p>
+        </div>
+        <div class="imagen-presentacion">
+            <img src="assets/OE_.png" alt="Mi foto">
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sección de Aficiones -->
+    <section id="aficiones">
+        <h2>Aficiones</h2>
+        <p>Me gusta practicar la cocina, viajar, y aprender constantemente sobre tecnología.</p>
+        <div class="galeria">
+            <img src="/assets/cocina.jfif" alt="cocina">
+            <img src="/assets/viajar.jfif" alt="viajar">
+            <img src="/assets/aprender.jfif" alt="Afición 3">
+        </div>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades Blandas</h2>
+        <ul>
+            <li>Trabajo en equipo</li>
+            <li>Comunicación efectiva</li>
+            <li>Adaptabilidad</li>
+            <li>Solución de problemas</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación -->
+    <section id="formacion">
+        <h2>Formación</h2>
+        <p>He completado cursos en desarrollo web, bases de datos, y pruebas automatizadas, entre otros.</p>
+    </section>
+
+    <!-- Sección de Cursos -->
+    <section id="cursos">
+        <h2>Cursos</h2>
+        <ul>
+            <li>Curso de Java y Spring Boot</li>
+            <li>SQL con MySQL Server de Oracle</li>
+            <li>Backend con el Instituto Alura Latam</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Experiencia en Programación -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí encontrarás algunos de los proyectos en los que he trabajado:</p>
+        <ul>
+            <li>Encriptador de Texto</li>
+            <li>Conversor de Moneda</li>
+        </ul>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="envio.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapié -->
+    <footer>
+        <p>&copy; 2024 Omar Espinoza | Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
